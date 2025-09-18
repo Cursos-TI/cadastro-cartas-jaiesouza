@@ -6,13 +6,21 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  char [50] A, B, A01, B01;
-  int populacao1, populacao2;
-  float area1, area2, pib1, pib2;
-
+char estado1[] = "A";
+char codigo1 [50] = "A01";
+char nome1 [50] = "São paulo";
+int populacao1 = 12325000;
+float area1 = 1521.2;
+float pib1 = 699.28;
 
   // Área para entrada de dados
-
+printf("carta 1:\n");
+printf("Estado: %s \n", estado1);
+printf("Código: %s \n", codigo1);
+printf("Nome da cidade: %s \n", nome1);
+printf("Populaçã0: %d \n", populacao1);
+printf("Área: %f \n", area1,);
+printf("PIB: %f \n", pib1,);
   // Área para exibição dos dados da cidade
 
 return 0;
